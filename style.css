@@ -233,15 +233,17 @@ font-weight: 300;
 /* BARRA DE PROGRESSO */
 
 .box-skills{
-    width: 600px;
-    margin: 30px auto;
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 80%;
+    flex-direction: column;
 }
 
 .box-skills h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    text-align: start;
     color: var(--blue-principal);
+    margin: 20px;
 }
 
 .box-skills p{
