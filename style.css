@@ -309,3 +309,133 @@ font-weight: 300;
     0%{width: 0;}
     100%{width: 30%;}
 }
+
+/* FIM ABOUT*/
+
+
+/*DIVIDER BY WAVES*/
+.divisor-wave{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.custom-shape-divider-top-1648470833 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1648470833 svg {
+    position: relative;
+    display: block;
+    width: calc(199% + 1.3px);
+    height: 394px;
+}
+
+.custom-shape-divider-top-1648470833 .shape-fill {
+    fill: #74A9E7;
+}
+/*FIM DIVIDER*/
+
+
+/*CONTATO*/
+.contato{
+    width: 100vh;
+    height: 30vh;
+    margin: 0 auto 300px;
+}
+
+.contato h1{
+    text-align: center;
+    margin: 30px 0 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--blue-principal);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contato-descricao{
+    margin: 5px 40px 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #cecece;
+}
+
+.opcoes-contato{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.contato-items img{
+    width: 20%;
+}
+
+.contato-items p{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    color: #cecece;
+}
+
+.contato-items img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 0 0 rgba(0,0,0, 0.8);
+    margin: 20px;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+/*FIM CONTATO*/
+
+
+.footer-principal{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.footer-sociais h1{
+    display: none;
+}
+
+.footer-sociais a{ 
+    text-align: center;
+    width: 40px;
+    color: #fff;
+    margin: 50px 5px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.footer-sociais a:hover{
+    background-color: var(--blue-principal);
+    border-radius: 10px;
+    width: 40px;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+    transform: scale(1.5);
+    margin: 20px;
+}
+
+.footer-principal h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
