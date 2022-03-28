@@ -8,3 +8,6 @@
 
 
 ###### Tentei replicar apenas para ver até onde conseguia chegar pesquisando e lembrando alguns detalhes. Além de praticar... Lembrando que este projeto não está responsivo. 
+
+
+###### Para acessar, visite: https://clone-portfolio-shukr-pablorodrigo.netlify.app
